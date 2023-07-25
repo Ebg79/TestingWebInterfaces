@@ -14,13 +14,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.slf4j:slf4j-api:1.8.0-beta2'
-    testImplementation 'javax.activation:activation:1.1.1'
-    testImplementation 'org.jlib:jlib-awslambda-logback:1.0.0'
+    testImplementation 'org.slf4j:slf4j-simple:2.0.7'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
     testImplementation 'org.seleniumhq.selenium:selenium-java:4.8.3'
     testImplementation 'io.github.bonigarcia:webdrivermanager:5.3.0'
-    testImplementation 'com.codeborne:selenide:6.12.2'
+
 }
 
 test {
